@@ -15,7 +15,7 @@ function make2DArray(cols, rows) {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   cols = floor(width / w) + 1;
-  rows = floor(height / w) + 2;
+  rows = floor(height / w) + 1;
   grid = make2DArray(cols, rows);
 }
 
